@@ -1,0 +1,18 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/lab/Desktop/Lab5ACJS/zad1/test1tab_isim_beh.exe -prj C:/Users/lab/Desktop/Lab5ACJS/zad1/test1tab_beh.prj work.test1tab 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/lab/Desktop/Lab5ACJS/zad1/sch1tabP.vhd" into library work
+Parsing VHDL file "C:/Users/lab/Desktop/Lab5ACJS/zad1/test1tab.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity sch1tabP [sch1tabp_default]
+Compiling architecture behavior of entity test1tab
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/lab/Desktop/Lab5ACJS/zad1/test1tab_isim_beh.exe
+Fuse Memory Usage: 30664 KB
+Fuse CPU Usage: 265 ms

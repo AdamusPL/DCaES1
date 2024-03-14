@@ -1,0 +1,15 @@
+V3 11
+FL C:/Users/lab/Desktop/Lab7ACJS/thisissparta/counter.vhd 2023/12/19.09:39:39 P.20131013
+EN work/counter 1702975196 \
+      FL C:/Users/lab/Desktop/Lab7ACJS/thisissparta/counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter/Behavioral 1702975197 \
+      FL C:/Users/lab/Desktop/Lab7ACJS/thisissparta/counter.vhd EN work/counter 1702975196
+FL C:/Users/lab/Desktop/Lab7ACJS/thisissparta/przystawka.vhf 2023/12/19.08:49:02 P.20131013
+EN work/przystawka 1702975198 \
+      FL C:/Users/lab/Desktop/Lab7ACJS/thisissparta/przystawka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/przystawka/BEHAVIORAL 1702975199 \
+      FL C:/Users/lab/Desktop/Lab7ACJS/thisissparta/przystawka.vhf \
+      EN work/przystawka 1702975198 CP GND CP RS232 CP LCD2x64 CP counter

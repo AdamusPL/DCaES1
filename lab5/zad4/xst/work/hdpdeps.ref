@@ -1,0 +1,5 @@
+V3 3
+EN work/sch4 0 FL C:/Users/lab/Desktop/Lab5ACJS/zad4/sch4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sch4/Behavioral 0 \
+      FL C:/Users/lab/Desktop/Lab5ACJS/zad4/sch4.vhd EN work/sch4 0

@@ -1,0 +1,221 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL44PC | XC9572XL-10-PC44
+
+DEVICE | 9572XL | 9572XL44PC | 
+
+NETWORK | sch2bool | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | Q_0_IBUF | sch2bool_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Q<0> | 392 | PI | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Q_3_IBUF | sch2bool_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Q<3> | 393 | PI | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Q_3_IBUF | 381 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Q_2_IBUF | sch2bool_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Q<2> | 394 | PI | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Q_1_IBUF | sch2bool_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Q<1> | 395 | PI | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | OptxMapped | Y_0_OBUF | sch2bool_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_3_IBUF | 381 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Y_0_OBUF | 384 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_0_OBUF.Q | Y_0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Y_0_OBUF.SI | Y_0_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_3_IBUF | 381 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_0_OBUF.D1 | 397 | ? | 0 | 4096 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_0_OBUF.D2 | 398 | ? | 0 | 4096 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | Q_0_IBUF | IV_TRUE | Q_3_IBUF
+SPPTERM | 3 | IV_TRUE | Q_0_IBUF | IV_TRUE | Q_2_IBUF | IV_TRUE | Q_1_IBUF
+SPPTERM | 3 | IV_TRUE | Q_0_IBUF | IV_FALSE | Q_2_IBUF | IV_FALSE | Q_1_IBUF
+SPPTERM | 3 | IV_FALSE | Q_0_IBUF | IV_FALSE | Q_2_IBUF | IV_TRUE | Q_1_IBUF
+SPPTERM | 4 | IV_FALSE | Q_0_IBUF | IV_FALSE | Q_3_IBUF | IV_TRUE | Q_2_IBUF | IV_FALSE | Q_1_IBUF
+
+SRFF_INSTANCE | Y_0_OBUF.REG | Y_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_0_OBUF.D | 396 | ? | 0 | 0 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_0_OBUF.Q | 399 | ? | 0 | 0 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | Y_1_OBUF | sch2bool_COPY_0_COPY_0 | 2155872512 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_3_IBUF | 381 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Y_1_OBUF | 385 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_1_OBUF.Q | Y_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Y_1_OBUF.SI | Y_1_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_3_IBUF | 381 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_1_OBUF.D1 | 401 | ? | 0 | 4096 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_1_OBUF.D2 | 402 | ? | 0 | 4096 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | Q_3_IBUF | IV_FALSE | Q_1_IBUF
+SPPTERM | 3 | IV_FALSE | Q_0_IBUF | IV_FALSE | Q_3_IBUF | IV_TRUE | Q_2_IBUF
+
+SRFF_INSTANCE | Y_1_OBUF.REG | Y_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_1_OBUF.D | 400 | ? | 0 | 0 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_1_OBUF.Q | 403 | ? | 0 | 0 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | Y_2_OBUF | sch2bool_COPY_0_COPY_0 | 2155872256 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Y_2_OBUF | 386 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_2_OBUF.Q | Y_2_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Y_2_OBUF.SI | Y_2_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_2_OBUF.D1 | 405 | ? | 0 | 4096 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_2_OBUF.D2 | 406 | ? | 0 | 4096 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | Q_0_IBUF | IV_TRUE | Q_2_IBUF
+SPPTERM | 2 | IV_TRUE | Q_2_IBUF | IV_FALSE | Q_1_IBUF
+
+SRFF_INSTANCE | Y_2_OBUF.REG | Y_2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_2_OBUF.D | 404 | ? | 0 | 0 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_2_OBUF.Q | 407 | ? | 0 | 0 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | Y_3_OBUF | sch2bool_COPY_0_COPY_0 | 2155872256 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Y_3_OBUF | 387 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_3_OBUF.Q | Y_3_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Y_3_OBUF.SI | Y_3_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_2_IBUF | 382 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_1_IBUF | 383 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Q_0_IBUF | 380 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Q_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_3_OBUF.D1 | 409 | ? | 0 | 4096 | Y_3_OBUF | NULL | NULL | Y_3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_3_OBUF.D2 | 410 | ? | 0 | 4096 | Y_3_OBUF | NULL | NULL | Y_3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | Q_0_IBUF | IV_TRUE | Q_2_IBUF
+SPPTERM | 2 | IV_TRUE | Q_2_IBUF | IV_FALSE | Q_1_IBUF
+
+SRFF_INSTANCE | Y_3_OBUF.REG | Y_3_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_3_OBUF.D | 408 | ? | 0 | 0 | Y_3_OBUF | NULL | NULL | Y_3_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_3_OBUF.Q | 411 | ? | 0 | 0 | Y_3_OBUF | NULL | NULL | Y_3_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Y<0> | sch2bool_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Y_0_OBUF | 384 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_0_OBUF.Q | Y_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Y<0> | 388 | PO | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Y<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Y<1> | sch2bool_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Y_1_OBUF | 385 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_1_OBUF.Q | Y_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Y<1> | 389 | PO | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Y<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Y<2> | sch2bool_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Y_2_OBUF | 386 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_2_OBUF.Q | Y_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Y<2> | 390 | PO | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Y<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Y<3> | sch2bool_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Y_3_OBUF | 387 | ? | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | Y_3_OBUF.Q | Y_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Y<3> | 391 | PO | 0 | 0 | sch2bool_COPY_0_COPY_0 | NULL | NULL | Y<3> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | sch2bool_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR2_ | sch2bool_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | Y_0_OBUF | 1 | NULL | 0 | Y<0> | 1 | 35 | 49152
+FBPIN | 8 | NULL | 0 | Q_3_IBUF | 1 | NULL | 0 | 38 | 49152
+FBPIN | 11 | NULL | 0 | Q_1_IBUF | 1 | NULL | 0 | 40 | 53248
+FBPIN | 14 | NULL | 0 | Q_0_IBUF | 1 | NULL | 0 | 42 | 53248
+FBPIN | 15 | NULL | 0 | Q_2_IBUF | 1 | NULL | 0 | 43 | 49152
+
+FB_INSTANCE | FOOBAR3_ | sch2bool_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR4_ | sch2bool_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 14 | Y_1_OBUF | 1 | NULL | 0 | Y<1> | 1 | 29 | 49152
+FBPIN | 15 | Y_2_OBUF | 1 | NULL | 0 | Y<2> | 1 | 33 | 49152
+FBPIN | 17 | Y_3_OBUF | 1 | NULL | 0 | Y<3> | 1 | 34 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | sch2bool_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | Q<3:0> | 4 | 0 | 0 | Q<0> | 3 | Q<1> | 2 | Q<2> | 1 | Q<3> | 0
+BUSINFO | Y<3:0> | 4 | 0 | 1 | Y<0> | 3 | Y<1> | 2 | Y<2> | 1 | Y<3> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 32 | Q<3> | 38 | 42 | Q<0> | 42 | 45 | Q<2> | 43 | 49 | Q<1> | 40
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 84 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 98 | -1 | -1 | 102 | -1 | -1 | -1 | 92 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 32 | Q<3> | 38 | 42 | Q<0> | 42 | 45 | Q<2> | 43 | 49 | Q<1> | 40
+
+FB_IMUX_INDEX | FOOBAR4_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 84 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 98 | -1 | -1 | 102 | -1 | -1 | -1 | 92 | -1 | -1 | -1 | -1
+

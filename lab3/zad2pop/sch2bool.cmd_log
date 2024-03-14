@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab5ACJS/zad2pop/sch2bool.xst" -ofn "C:/Users/lab/Desktop/Lab5ACJS/zad2pop/sch2bool.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572tab.ucf -p xc9572xl-PC44-10 sch2bool.ngc sch2bool.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sch2bool.ngd 
+XSLTProcess sch2bool_build.xml 
+tsim -intstyle ise sch2bool sch2bool.nga 
+taengine -intstyle ise -f sch2bool -w --format html1 -l sch2bool_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n sch2bool -i sch2bool 
