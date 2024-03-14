@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\lab\Desktop\lab8ACJS\aohfohdsf\sch.ncd
+OUTFILE=C:\Users\lab\Desktop\lab8ACJS\aohfohdsf\sch.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\lab\Desktop\lab8ACJS\aohfohdsf
+LICENSE=ISE
+USER_INFO=174693031_177724690_210770496_347

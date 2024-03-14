@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/lab/zad2/sche2.xst" -ofn "C:/Users/lab/zad2/sche2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 sche2.ngc sche2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sche2.ngd 
+XSLTProcess sche2_build.xml 
+tsim -intstyle ise sche2 sche2.nga 
+taengine -intstyle ise -f sche2 -w --format html1 -l sche2_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n sche2 -i sche2 

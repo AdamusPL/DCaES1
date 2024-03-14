@@ -1,0 +1,144 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.xst" -ofn "C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 sch.ngc sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o sch_map.ncd sch.ngd sch.pcf 
+par -w -intstyle ise -ol high -t 1 sch_map.ncd sch.ncd sch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sch.twx sch.ncd -o sch.twr sch.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f sch.ut sch.ncd 

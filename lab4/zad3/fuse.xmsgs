@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 26: Formal port &lt;<arg fmt="%s" index="1">Y0</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 27: Formal port &lt;<arg fmt="%s" index="1">Y1</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 28: Formal port &lt;<arg fmt="%s" index="1">Y2</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 29: Formal port &lt;<arg fmt="%s" index="1">Y3</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 30: Formal port &lt;<arg fmt="%s" index="1">Y4</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 31: Formal port &lt;<arg fmt="%s" index="1">Y5</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 32: Formal port &lt;<arg fmt="%s" index="1">Y6</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/lab/Desktop/Lab4/zad3/test3.vhd" Line 33: Formal port &lt;<arg fmt="%s" index="1">Y7</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">sch3</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">sch3</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">sch3_sch3_sch_tb</arg> in library <arg fmt="%s" index="2">work</arg> failed
+</msg>
+
+</messages>
+

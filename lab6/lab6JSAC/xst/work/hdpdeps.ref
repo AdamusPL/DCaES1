@@ -1,0 +1,13 @@
+V3 11
+FL C:/Users/lab/Desktop/SUS/lab6JSAC/counter.vhd 2023/12/05.09:32:28 P.20131013
+EN work/counter 1701767827 FL C:/Users/lab/Desktop/SUS/lab6JSAC/counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter/Behavioral 1701767828 \
+      FL C:/Users/lab/Desktop/SUS/lab6JSAC/counter.vhd EN work/counter 1701767827
+FL C:/Users/lab/Desktop/SUS/lab6JSAC/przystawka.vhf 2023/12/05.10:17:05 P.20131013
+EN work/przystawka 1701767829 FL C:/Users/lab/Desktop/SUS/lab6JSAC/przystawka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/przystawka/BEHAVIORAL 1701767830 \
+      FL C:/Users/lab/Desktop/SUS/lab6JSAC/przystawka.vhf EN work/przystawka 1701767829 \
+      CP counter CP Display4x7S CP RS232_RX CP GND

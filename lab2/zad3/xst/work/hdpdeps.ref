@@ -1,0 +1,7 @@
+V3 12
+FL C:/Users/lab/zad3/sche3.vhf 2023/10/10.09:15:51 P.20131013
+EN work/sche3 1696922406 FL C:/Users/lab/zad3/sche3.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sche3/BEHAVIORAL 1696922407 \
+      FL C:/Users/lab/zad3/sche3.vhf EN work/sche3 1696922406 CP AND2B1 CP AND2 \
+      CP AND4B3 CP AND3B2 CP AND3 CP OR2 CP OR3 CP OR5

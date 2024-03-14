@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab4/zad3/sch3.xst" -ofn "C:/Users/lab/Desktop/Lab4/zad3/sch3.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 sch3.ngc sch3.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sch3.ngd 
+XSLTProcess sch3_build.xml 
+tsim -intstyle ise sch3 sch3.nga 
+taengine -intstyle ise -f sch3 -w --format html1 -l sch3_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n sch3 -i sch3 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 sch3.ngc sch3.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sch3.ngd 
+XSLTProcess sch3_build.xml 
+tsim -intstyle ise sch3 sch3.nga 
+hprep6 -s IEEE1149 -n sch3 -i sch3 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab4/zad3/sch3.xst" -ofn "C:/Users/lab/Desktop/Lab4/zad3/sch3.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 sch3.ngc sch3.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sch3.ngd 
+XSLTProcess sch3_build.xml 
+tsim -intstyle ise sch3 sch3.nga 
+hprep6 -s IEEE1149 -n sch3 -i sch3 

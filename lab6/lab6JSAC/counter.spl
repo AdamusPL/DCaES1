@@ -1,0 +1,11 @@
+[Inputs]
+START_STOP
+PAUSE
+LOAD
+RESET
+REVERSE
+CLOCK
+=IN_I[7:0]=
+[Outputs]
+=OUT_O[7:0]=
+[BiDir]

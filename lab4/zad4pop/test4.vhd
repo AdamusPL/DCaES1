@@ -1,0 +1,56 @@
+-- Vhdl test bench created from schematic C:\Users\lab\Desktop\Lab4\zad4\sch4.sch - Tue Nov 07 09:17:01 2023
+--
+-- Notes: 
+-- 1) This testbench template has been automatically generated using types
+-- std_logic and std_logic_vector for the ports of the unit under test.
+-- Xilinx recommends that these types always be used for the top-level
+-- I/O of a design in order to guarantee that the testbench will bind
+-- correctly to the timing (post-route) simulation model.
+-- 2) To use this template as your testbench, change the filename to any
+-- name of your choice with the extension .vhd, and use the "Source->Add"
+-- menu in Project Navigator to import the testbench. Then
+-- edit the user defined section below, adding code to generate the 
+-- stimulus for your design.
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+LIBRARY UNISIM;
+USE UNISIM.Vcomponents.ALL;
+ENTITY sch4_sch4_sch_tb IS
+END sch4_sch4_sch_tb;
+ARCHITECTURE behavioral OF sch4_sch4_sch_tb IS 
+
+   COMPONENT sch4
+   PORT( greater	:	OUT	STD_LOGIC; 
+          lower	:	OUT	STD_LOGIC; 
+          equal	:	OUT	STD_LOGIC; 
+          A	:	IN	STD_LOGIC_VECTOR (1 DOWNTO 0); 
+          B	:	IN	STD_LOGIC_VECTOR (1 DOWNTO 0));
+   END COMPONENT;
+
+   SIGNAL greater	:	STD_LOGIC;
+   SIGNAL lower	:	STD_LOGIC;
+   SIGNAL equal	:	STD_LOGIC;
+   SIGNAL A	:	STD_LOGIC_VECTOR (1 DOWNTO 0);
+   SIGNAL B	:	STD_LOGIC_VECTOR (1 DOWNTO 0);
+
+BEGIN
+
+   UUT: sch4 PORT MAP(
+		greater => greater, 
+		lower => lower, 
+		equal => equal, 
+		A => A, 
+		B => B
+   );
+
+-- *** Test Bench - User Defined Section ***
+   A <= "00", "01" after 100 ns, "10" after 200 ns, "11" after 300 ns, "00" after 400 ns, 
+   "01" after 500 ns, "10" after 600 ns, "11" after 700 ns, "00" after 800 ns, 
+   "01" after 900 ns, "10" after 1000 ns, "11" after 1100 ns, "00" after 1200 ns, 
+   "01" after 1300 ns, "10" after 1400 ns, "11" after 1500 ns;
+	B <= "00", "01" after 400 ns, "10" after 800 ns, "11" after 1200 ns;
+-- *** End Test Bench - User Defined Section ***
+
+END;

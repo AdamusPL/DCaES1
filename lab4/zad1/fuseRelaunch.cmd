@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/lab/Desktop/Lab4/zad1/sch1_sch1_sch_tb_isim_beh.exe" -prj "C:/Users/lab/Desktop/Lab4/zad1/sch1_sch1_sch_tb_beh.prj" "work.sch1_sch1_sch_tb" 

@@ -1,0 +1,73 @@
+-- Vhdl test bench created from schematic C:\Users\lab\Desktop\Lab4\zad3\sch3.sch - Tue Nov 07 08:34:07 2023
+--
+-- Notes: 
+-- 1) This testbench template has been automatically generated using types
+-- std_logic and std_logic_vector for the ports of the unit under test.
+-- Xilinx recommends that these types always be used for the top-level
+-- I/O of a design in order to guarantee that the testbench will bind
+-- correctly to the timing (post-route) simulation model.
+-- 2) To use this template as your testbench, change the filename to any
+-- name of your choice with the extension .vhd, and use the "Source->Add"
+-- menu in Project Navigator to import the testbench. Then
+-- edit the user defined section below, adding code to generate the 
+-- stimulus for your design.
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+LIBRARY UNISIM;
+USE UNISIM.Vcomponents.ALL;
+ENTITY sch3_sch3_sch_tb IS
+END sch3_sch3_sch_tb;
+ARCHITECTURE behavioral OF sch3_sch3_sch_tb IS 
+
+   COMPONENT sch3
+   PORT( A	:	IN	STD_LOGIC_VECTOR (3 DOWNTO 0); 
+          Y0	:	OUT	STD_LOGIC; 
+          Y1	:	OUT	STD_LOGIC; 
+          Y2	:	OUT	STD_LOGIC; 
+          Y3	:	OUT	STD_LOGIC; 
+          Y4	:	OUT	STD_LOGIC; 
+          Y5	:	OUT	STD_LOGIC; 
+          Y6	:	OUT	STD_LOGIC; 
+          Y7	:	OUT	STD_LOGIC; 
+          overflow0	:	OUT	STD_LOGIC; 
+          overflow1	:	OUT	STD_LOGIC; 
+          cout	:	OUT	STD_LOGIC);
+   END COMPONENT;
+
+   SIGNAL A	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
+   SIGNAL Y0	:	STD_LOGIC;
+   SIGNAL Y1	:	STD_LOGIC;
+   SIGNAL Y2	:	STD_LOGIC;
+   SIGNAL Y3	:	STD_LOGIC;
+   SIGNAL Y4	:	STD_LOGIC;
+   SIGNAL Y5	:	STD_LOGIC;
+   SIGNAL Y6	:	STD_LOGIC;
+   SIGNAL Y7	:	STD_LOGIC;
+   SIGNAL overflow0	:	STD_LOGIC;
+   SIGNAL overflow1	:	STD_LOGIC;
+   SIGNAL cout	:	STD_LOGIC;
+
+BEGIN
+
+   UUT: sch3 PORT MAP(
+		A => A, 
+		Y0 => Y0, 
+		Y1 => Y1, 
+		Y2 => Y2, 
+		Y3 => Y3, 
+		Y4 => Y4, 
+		Y5 => Y5, 
+		Y6 => Y6, 
+		Y7 => Y7, 
+		overflow0 => overflow0, 
+		overflow1 => overflow1, 
+		cout => cout
+   );
+
+-- *** Test Bench - User Defined Section ***
+   A<="0000", "0001" after 100 ns, "0010" after 200 ns, "0011" after 300 ns,"0100" after 400 ns,"0101" after 500 ns, "0110" after 600 ns, "0111" after 700 ns, "1000" after 800 ns, "1001" after 900 ns, "1010" after 1000 ns, "1011" after 1100 ns, "1100" after 1200 ns, "1101" after 1300 ns, "1110" after 1400 ns, "1111" after 1500 ns;      
+-- *** End Test Bench - User Defined Section ***
+
+END;

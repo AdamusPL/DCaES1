@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab6JSAC.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="counter.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="counter.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ihatexilinx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ihatexilinx_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ihatexilinx_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="przystawka.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="przystawka.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="przystawka.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="przystawka.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="przystawka.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="przystawka.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="przystawka.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="przystawka.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="przystawka.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="przystawka.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="przystawka.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="przystawka.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="przystawka.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="przystawka.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przystawka.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="przystawka.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="przystawka.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przystawka.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przystawka.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="przystawka.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="przystawka.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przystawka.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="przystawka.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przystawka_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="przystawka_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="przystawka_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="przystawka_pad.csv"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="przystawka_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="przystawka_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testestotot_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testestotot_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testestotot_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testtt_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testtt_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testtt_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1701760188" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1701760188">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701784469" xil_pn:in_ck="-6307652016296036601" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1701784469">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="counter.vhd"/>
+      <outfile xil_pn:name="ihatexilinx.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1701784473" xil_pn:in_ck="-3110690650947035380" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5071551980644292627" xil_pn:start_ts="1701784469">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701784473" xil_pn:in_ck="-6307652016296036601" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1701784473">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="counter.vhd"/>
+      <outfile xil_pn:name="ihatexilinx.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1701784480" xil_pn:in_ck="-6307652016296036601" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6702593634113317624" xil_pn:start_ts="1701784473">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="ihatexilinx_beh.prj"/>
+      <outfile xil_pn:name="ihatexilinx_isim_beh.exe"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1701784480" xil_pn:in_ck="-2813781635381301859" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3881810426310236411" xil_pn:start_ts="1701784480">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ihatexilinx_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1701763277" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1701763277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701767826" xil_pn:in_ck="-3110690650947035380" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="940454930231822461" xil_pn:start_ts="1701767825">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="przystawka.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1701767832" xil_pn:in_ck="-550314143264564830" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-8319495050010384" xil_pn:start_ts="1701767826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="przystawka.jhd"/>
+      <outfile xil_pn:name="przystawka.lso"/>
+      <outfile xil_pn:name="przystawka.ngc"/>
+      <outfile xil_pn:name="przystawka.ngr"/>
+      <outfile xil_pn:name="przystawka.prj"/>
+      <outfile xil_pn:name="przystawka.stx"/>
+      <outfile xil_pn:name="przystawka.syr"/>
+      <outfile xil_pn:name="przystawka.xst"/>
+      <outfile xil_pn:name="przystawka_vhdl.prj"/>
+      <outfile xil_pn:name="przystawka_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1701767862" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767809289956151618" xil_pn:start_ts="1701767862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701767866" xil_pn:in_ck="2628106233959604924" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="920057667651985957" xil_pn:start_ts="1701767862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="przystawka.bld"/>
+      <outfile xil_pn:name="przystawka.ngd"/>
+      <outfile xil_pn:name="przystawka_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1701767878" xil_pn:in_ck="-3110690650947040697" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-2625946784935941966" xil_pn:start_ts="1701767866">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="przystawka.gyd"/>
+      <outfile xil_pn:name="przystawka.mfd"/>
+      <outfile xil_pn:name="przystawka.nga"/>
+      <outfile xil_pn:name="przystawka.pad"/>
+      <outfile xil_pn:name="przystawka.pnx"/>
+      <outfile xil_pn:name="przystawka.rpt"/>
+      <outfile xil_pn:name="przystawka.tim"/>
+      <outfile xil_pn:name="przystawka.tspec"/>
+      <outfile xil_pn:name="przystawka.vm6"/>
+      <outfile xil_pn:name="przystawka.xml"/>
+      <outfile xil_pn:name="przystawka_build.xml"/>
+      <outfile xil_pn:name="przystawka_html"/>
+      <outfile xil_pn:name="przystawka_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1701767880" xil_pn:in_ck="-3110690650947031833" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1701767878">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <outfile xil_pn:name="przystawka.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1701765080" xil_pn:in_ck="-3110690650947031833" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1701765079">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

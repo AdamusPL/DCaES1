@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/adamc/Desktop/lab6JSAC/ihatexilinx_isim_beh.exe" -prj "C:/Users/adamc/Desktop/lab6JSAC/ihatexilinx_beh.prj" "work.ihatexilinx" 

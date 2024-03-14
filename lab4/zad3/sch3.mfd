@@ -1,0 +1,245 @@
+MDF Database:  version 1.0
+MDF_INFO | sch3 | XC9572XL-10-PC44
+MACROCELL | 2 | 7 | D7S_S_1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 6 | A<0>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>  | A<3>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 4 | 89 | 88 | 59 | 92
+EQ | 5 | 
+   D7S_S<1> = A<3> & A<1> & A<2> & !D7S_D<0>
+	# A<3> & !A<2> & !D7S_D<0> & !D7S_D<1>
+	# !A<0> & A<1> & A<2> & !D7S_D<0> & D7S_D<1>
+	# A<0> & !A<3> & !A<1> & A<2> & !D7S_D<0> & 
+	D7S_D<1>;
+
+MACROCELL | 2 | 8 | D7S_S_4_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 6 | A<3>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>  | A<0>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 4 | 92 | 88 | 59 | 89
+EQ | 5 | 
+   !D7S_S<4> = D7S_D<0> & D7S_D<1>
+	# A<0> & A<3> & A<1> & !D7S_D<0>
+	# !A<0> & !A<3> & A<1> & D7S_D<1>
+	# !A<0> & !A<1> & !A<2> & D7S_D<1>
+	# A<3> & !A<1> & !A<2> & !D7S_D<0> & !D7S_D<1>;
+
+MACROCELL | 2 | 13 | D7S_S_3_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 7 | A<3>  | A<1>  | A<2>  | D7S_D<1>  | D7S_D<0>  | A<0>  | EXP13_.EXP
+INPUTMC | 3 | 0 | 10 | 0 | 14 | 2 | 12
+INPUTP | 4 | 92 | 88 | 59 | 89
+IMPORTS | 1 | 2 | 12
+EQ | 11 | 
+   D7S_S<3> = A<3> & A<1> & D7S_D<0> & !D7S_D<1>
+	# A<3> & !A<1> & A<2> & !D7S_D<1>
+	# !A<3> & A<2> & !D7S_D<0> & !D7S_D<1>
+	# A<0> & A<3> & !A<1> & A<2> & !D7S_D<0>
+	# A<0> & !A<3> & A<1> & A<2> & !D7S_D<0>
+;Imported pterms FB3_13
+	# !A<0> & !A<3> & !A<1> & A<2> & !D7S_D<0>
+	# A<0> & !A<3> & !A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>
+	# !A<0> & A<3> & A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>;
+
+MACROCELL | 2 | 4 | D7S_S_0_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 8 | A<3>  | A<2>  | D7S_D<0>  | D7S_D<1>  | A<1>  | A<0>  | EXP11_.EXP  | EXP12_.EXP
+INPUTMC | 4 | 0 | 14 | 0 | 10 | 2 | 3 | 2 | 5
+INPUTP | 4 | 92 | 59 | 88 | 89
+IMPORTS | 2 | 2 | 3 | 2 | 5
+EQ | 12 | 
+   D7S_S<0> = A<3> & A<1> & D7S_D<0> & !D7S_D<1>
+	# A<3> & A<2> & D7S_D<0> & !D7S_D<1>
+	# A<0> & A<3> & !A<1> & A<2> & !D7S_D<0>
+	# A<3> & !A<1> & !A<2> & !D7S_D<0> & !D7S_D<1>
+	# A<0> & !A<3> & !A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>
+;Imported pterms FB3_4
+	# !A<0> & A<3> & A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>
+;Imported pterms FB3_6
+	# !A<0> & !A<3> & !A<1> & A<2> & !D7S_D<0> & 
+	D7S_D<1>;
+
+MACROCELL | 2 | 16 | D7S_S_2_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 6 | A<0>  | A<3>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 4 | 89 | 92 | 88 | 59
+EQ | 4 | 
+   D7S_S<2> = A<0> & A<3> & A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>
+	# !A<0> & !A<3> & A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>;
+
+MACROCELL | 2 | 1 | D7S_S_5_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 7 | A<3>  | A<2>  | D7S_D<1>  | A<1>  | D7S_D<0>  | A<0>  | EXP10_.EXP
+INPUTMC | 3 | 0 | 10 | 0 | 14 | 2 | 0
+INPUTP | 4 | 92 | 59 | 88 | 89
+IMPORTS | 1 | 2 | 0
+EQ | 8 | 
+   D7S_S<5> = !A<3> & !A<2> & !D7S_D<1>
+	# !A<3> & D7S_D<0> & !D7S_D<1>
+	# A<0> & !A<3> & !A<2> & !D7S_D<0>
+	# A<1> & !A<2> & !D7S_D<0> & D7S_D<1>
+	# !A<1> & !A<2> & D7S_D<0> & !D7S_D<1>
+;Imported pterms FB3_1
+	# !A<0> & A<3> & !A<1> & A<2> & !D7S_D<0> & 
+	D7S_D<1>;
+
+MACROCELL | 2 | 14 | D7S_S_6_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 7 | D7S_D<0>  | D7S_D<1>  | A<3>  | A<1>  | A<2>  | A<0>  | EXP14_.EXP
+INPUTMC | 3 | 0 | 14 | 0 | 10 | 2 | 15
+INPUTP | 4 | 92 | 88 | 59 | 89
+IMPORTS | 1 | 2 | 15
+EQ | 7 | 
+   D7S_S<6> = D7S_D<0> & D7S_D<1>
+	# !A<3> & !A<1> & !A<2> & D7S_D<1>
+	# !A<3> & A<2> & !D7S_D<0> & !D7S_D<1>
+	# A<0> & !A<3> & A<1> & A<2> & !D7S_D<0>
+	# !A<0> & A<3> & A<1> & !A<2> & D7S_D<1>
+;Imported pterms FB3_16
+	# !A<0> & !A<1> & A<2> & !D7S_D<0> & !D7S_D<1>;
+
+MACROCELL | 2 | 10 | D7S_S_7_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   D7S_S<7> = Vcc;
+
+MACROCELL | 0 | 14 | D7S_D_0_OBUF
+ATTRIBUTES | 8815364 | 0
+OUTPUTMC | 15 | 2 | 7 | 2 | 8 | 2 | 13 | 2 | 4 | 2 | 16 | 2 | 1 | 2 | 14 | 0 | 14 | 0 | 10 | 0 | 16 | 2 | 0 | 2 | 3 | 2 | 5 | 2 | 12 | 2 | 15
+INPUTS | 3 | D7S_D<0>  | D7S_D<1>  | D7S_D<2>
+INPUTMC | 3 | 0 | 14 | 0 | 10 | 0 | 7
+EQ | 2 | 
+   !D7S_D<0>.D = D7S_D<0> & D7S_D<1> & D7S_D<2>;
+   D7S_D<0>.CLK = clock;	// GCK
+GLOBALS | 1 | 2 | clock
+
+MACROCELL | 0 | 10 | D7S_D_1_OBUF
+ATTRIBUTES | 8815364 | 0
+OUTPUTMC | 15 | 2 | 7 | 2 | 8 | 2 | 13 | 2 | 4 | 2 | 16 | 2 | 1 | 2 | 14 | 0 | 14 | 0 | 7 | 0 | 16 | 2 | 0 | 2 | 3 | 2 | 5 | 2 | 12 | 2 | 15
+INPUTS | 1 | D7S_D<0>
+INPUTMC | 1 | 0 | 14
+EQ | 2 | 
+   D7S_D<1>.D = D7S_D<0>;
+   D7S_D<1>.CLK = clock;	// GCK
+GLOBALS | 1 | 2 | clock
+
+MACROCELL | 0 | 7 | D7S_D_2_OBUF
+ATTRIBUTES | 8815364 | 0
+OUTPUTMC | 2 | 0 | 14 | 0 | 16
+INPUTS | 1 | D7S_D<1>
+INPUTMC | 1 | 0 | 10
+EQ | 2 | 
+   D7S_D<2>.D = D7S_D<1>;
+   D7S_D<2>.CLK = clock;	// GCK
+GLOBALS | 1 | 2 | clock
+
+MACROCELL | 0 | 16 | D7S_D_3_OBUF
+ATTRIBUTES | 264960 | 0
+INPUTS | 3 | D7S_D<0>  | D7S_D<1>  | D7S_D<2>
+INPUTMC | 3 | 0 | 14 | 0 | 10 | 0 | 7
+EQ | 1 | 
+   !D7S_D<3> = D7S_D<0> & D7S_D<1> & D7S_D<2>;
+
+MACROCELL | 3 | 13 | overflow0_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   overflow0 = Gnd;
+
+MACROCELL | 3 | 1 | cout_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   cout = Gnd;
+
+MACROCELL | 1 | 1 | overflow1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   overflow1 = Gnd;
+
+MACROCELL | 2 | 0 | EXP10_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 1
+INPUTS | 6 | A<0>  | A<3>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 4 | 89 | 92 | 88 | 59
+EXPORTS | 1 | 2 | 1
+EQ | 2 | 
+       EXP10_.EXP  =  !A<0> & A<3> & !A<1> & A<2> & !D7S_D<0> & 
+	D7S_D<1>
+
+MACROCELL | 2 | 3 | EXP11_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 4
+INPUTS | 6 | A<0>  | A<3>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 4 | 89 | 92 | 88 | 59
+EXPORTS | 1 | 2 | 4
+EQ | 2 | 
+       EXP11_.EXP  =  !A<0> & A<3> & A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>
+
+MACROCELL | 2 | 5 | EXP12_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 4
+INPUTS | 6 | A<0>  | A<3>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 4 | 89 | 92 | 88 | 59
+EXPORTS | 1 | 2 | 4
+EQ | 2 | 
+       EXP12_.EXP  =  !A<0> & !A<3> & !A<1> & A<2> & !D7S_D<0> & 
+	D7S_D<1>
+
+MACROCELL | 2 | 12 | EXP13_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 13
+INPUTS | 6 | A<0>  | A<3>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 4 | 89 | 92 | 88 | 59
+EXPORTS | 1 | 2 | 13
+EQ | 5 | 
+       EXP13_.EXP  =  !A<0> & !A<3> & !A<1> & A<2> & !D7S_D<0>
+	# A<0> & !A<3> & !A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>
+	# !A<0> & A<3> & A<1> & !A<2> & !D7S_D<0> & 
+	D7S_D<1>
+
+MACROCELL | 2 | 15 | EXP14_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 14
+INPUTS | 5 | A<0>  | A<1>  | A<2>  | D7S_D<0>  | D7S_D<1>
+INPUTMC | 2 | 0 | 14 | 0 | 10
+INPUTP | 3 | 89 | 88 | 59
+EXPORTS | 1 | 2 | 14
+EQ | 1 | 
+       EXP14_.EXP  =  !A<0> & !A<1> & A<2> & !D7S_D<0> & !D7S_D<1>
+
+PIN | A<0> | 64 | 0 | N/A | 89 | 12 | 2 | 7 | 2 | 8 | 2 | 13 | 2 | 4 | 2 | 16 | 2 | 1 | 2 | 14 | 2 | 0 | 2 | 3 | 2 | 5 | 2 | 12 | 2 | 15
+PIN | A<1> | 64 | 0 | N/A | 88 | 12 | 2 | 7 | 2 | 8 | 2 | 13 | 2 | 4 | 2 | 16 | 2 | 1 | 2 | 14 | 2 | 0 | 2 | 3 | 2 | 5 | 2 | 12 | 2 | 15
+PIN | A<2> | 64 | 0 | N/A | 59 | 12 | 2 | 7 | 2 | 8 | 2 | 13 | 2 | 4 | 2 | 16 | 2 | 1 | 2 | 14 | 2 | 0 | 2 | 3 | 2 | 5 | 2 | 12 | 2 | 15
+PIN | A<3> | 64 | 0 | N/A | 92 | 11 | 2 | 7 | 2 | 8 | 2 | 13 | 2 | 4 | 2 | 16 | 2 | 1 | 2 | 14 | 2 | 0 | 2 | 3 | 2 | 5 | 2 | 12
+PIN | clock | 16384 | 0 | N/A | 24 | 3 | 0 | 14 | 0 | 10 | 0 | 7
+PIN | D7S_S<1> | 536871040 | 0 | N/A | 33
+PIN | D7S_S<4> | 536871040 | 0 | N/A | 38
+PIN | D7S_S<3> | 536871040 | 0 | N/A | 49
+PIN | D7S_S<0> | 536871040 | 0 | N/A | 31
+PIN | D7S_S<2> | 536871040 | 0 | N/A | 52
+PIN | D7S_S<5> | 536871040 | 0 | N/A | 29
+PIN | D7S_S<6> | 536871040 | 0 | N/A | 50
+PIN | D7S_S<7> | 536871040 | 0 | N/A | 46
+PIN | D7S_D<0> | 128 | 0 | N/A | 26
+PIN | D7S_D<1> | 128 | 0 | N/A | 21
+PIN | D7S_D<2> | 128 | 0 | N/A | 15
+PIN | D7S_D<3> | 128 | 0 | N/A | 27
+PIN | overflow0 | 536871040 | 0 | N/A | 72
+PIN | cout | 536871040 | 0 | N/A | 62
+PIN | overflow1 | 536871040 | 0 | N/A | 87

@@ -1,0 +1,216 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: sch3.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sch3.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sch3"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : sch3
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/lab/Desktop/Lab4/zad3/sch3.vhf" in Library work.
+Entity <add4_mxilinx_sch3> compiled.
+Entity <add4_mxilinx_sch3> (Architecture <behavioral>) compiled.
+Entity <sch3> compiled.
+Entity <sch3> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <sch3> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADD4_MXILINX_sch3> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sch3> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_1_0" for instance <XLXI_1> in unit <sch3>.
+    Set user-defined property "HU_SET =  XLXI_2_1" for instance <XLXI_2> in unit <sch3>.
+WARNING:Xst:2211 - "C:/Users/lab/Desktop/Lab4/zad3/sch3.vhf" line 488: Instantiating black box module <Display4x7S>.
+Entity <sch3> analyzed. Unit <sch3> generated.
+
+Analyzing Entity <ADD4_MXILINX_sch3> in library <work> (Architecture <behavioral>).
+Entity <ADD4_MXILINX_sch3> analyzed. Unit <ADD4_MXILINX_sch3> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ADD4_MXILINX_sch3>.
+    Related source file is "C:/Users/lab/Desktop/Lab4/zad3/sch3.vhf".
+Unit <ADD4_MXILINX_sch3> synthesized.
+
+
+Synthesizing Unit <sch3>.
+    Related source file is "C:/Users/lab/Desktop/Lab4/zad3/sch3.vhf".
+WARNING:Xst:653 - Signal <XLXI_12_DP_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <XLXI_12_Blank_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <DI<15:8>> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+Unit <sch3> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <Display4x7S.ngc>.
+Loading core <Display4x7S> for timing and area information for instance <XLXI_12>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sch3> ...
+
+Optimizing unit <ADD4_MXILINX_sch3> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sch3.ngr
+Top Level Output File Name         : sch3
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 184
+#      AND2                        : 61
+#      AND3                        : 9
+#      AND4                        : 11
+#      AND5                        : 4
+#      GND                         : 3
+#      INV                         : 50
+#      OR2                         : 11
+#      OR3                         : 2
+#      OR4                         : 11
+#      OR5                         : 3
+#      OR6                         : 2
+#      VCC                         : 1
+#      XOR2                        : 16
+# FlipFlops/Latches                : 3
+#      FD                          : 3
+# IO Buffers                       : 20
+#      IBUF                        : 5
+#      OBUF                        : 15
+# Others                           : 4
+#      AND3B1                      : 2
+#      AND3B2                      : 2
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.72 secs
+ 
+--> 
+
+Total memory usage is 4515708 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

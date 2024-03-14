@@ -1,0 +1,112 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FDCPE_D7S_D0: FDCPE port map (D7S_D(0),D7S_D_D(0),clock,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D7S_D_D(0) <= (D7S_D(0) AND D7S_D(1) AND D7S_D(2));
+</td></tr><tr><td>
+FDCPE_D7S_D1: FDCPE port map (D7S_D(1),D7S_D(0),clock,'0','0');
+</td></tr><tr><td>
+FDCPE_D7S_D2: FDCPE port map (D7S_D(2),D7S_D(1),clock,'0','0');
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_D(3) <= NOT ((D7S_D(0) AND D7S_D(1) AND D7S_D(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(0) <= ((NOT A(0) AND A(3) AND A(1) AND NOT A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(0) AND NOT A(3) AND NOT A(1) AND A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(3) AND A(1) AND D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(3) AND A(2) AND D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND A(3) AND NOT A(1) AND A(2) AND NOT D7S_D(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(3) AND NOT A(1) AND NOT A(2) AND NOT D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND NOT A(3) AND NOT A(1) AND NOT A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(1) <= ((A(3) AND A(1) AND A(2) AND NOT D7S_D(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(3) AND NOT A(2) AND NOT D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(0) AND A(1) AND A(2) AND NOT D7S_D(0) AND D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND NOT A(3) AND NOT A(1) AND A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(2) <= ((A(0) AND A(3) AND A(1) AND NOT A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(0) AND NOT A(3) AND A(1) AND NOT A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(3) <= ((NOT A(0) AND NOT A(3) AND NOT A(1) AND A(2) AND NOT D7S_D(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND NOT A(3) AND NOT A(1) AND NOT A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(0) AND A(3) AND A(1) AND NOT A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(3) AND A(1) AND D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(3) AND NOT A(1) AND A(2) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(3) AND A(2) AND NOT D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND A(3) AND NOT A(1) AND A(2) AND NOT D7S_D(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND NOT A(3) AND A(1) AND A(2) AND NOT D7S_D(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(4) <= NOT (((D7S_D(0) AND D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND A(3) AND A(1) AND NOT D7S_D(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(0) AND NOT A(3) AND A(1) AND D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(0) AND NOT A(1) AND NOT A(2) AND D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(3) AND NOT A(1) AND NOT A(2) AND NOT D7S_D(0) AND NOT D7S_D(1))));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(5) <= ((NOT A(0) AND A(3) AND NOT A(1) AND A(2) AND NOT D7S_D(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(3) AND NOT A(2) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(3) AND D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND NOT A(3) AND NOT A(2) AND NOT D7S_D(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(1) AND NOT A(2) AND NOT D7S_D(0) AND D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(1) AND NOT A(2) AND D7S_D(0) AND NOT D7S_D(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(6) <= ((NOT A(0) AND NOT A(1) AND A(2) AND NOT D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (D7S_D(0) AND D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(3) AND NOT A(1) AND NOT A(2) AND D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(3) AND A(2) AND NOT D7S_D(0) AND NOT D7S_D(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A(0) AND NOT A(3) AND A(1) AND A(2) AND NOT D7S_D(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A(0) AND A(3) AND A(1) AND NOT A(2) AND D7S_D(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+D7S_S(7) <= '1';
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+cout <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+overflow0 <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+overflow1 <= '0';
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

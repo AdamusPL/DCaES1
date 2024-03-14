@@ -1,0 +1,15 @@
+V3 19
+FL C:/Users/lab/Desktop/Lab4/zad2/sch2.vhf 2023/11/07.08:05:09 P.20131013
+EN work/ADD4_MXILINX_sch2 1699341125 FL C:/Users/lab/Desktop/Lab4/zad2/sch2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD4_MXILINX_sch2/BEHAVIORAL 1699341126 \
+      FL C:/Users/lab/Desktop/Lab4/zad2/sch2.vhf EN work/ADD4_MXILINX_sch2 1699341125 \
+      CP XOR2 CP OR2 CP OR3 CP OR4 CP AND5 CP AND4 CP AND3 CP AND2 CP OR5 CP GND CP AND3B1 \
+      CP AND3B2
+EN work/sch2 1699341127 FL C:/Users/lab/Desktop/Lab4/zad2/sch2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sch2/BEHAVIORAL 1699341128 \
+      FL C:/Users/lab/Desktop/Lab4/zad2/sch2.vhf EN work/sch2 1699341127 \
+      CP ADD4_MXILINX_sch2 CP GND CP AND2 CP OR2

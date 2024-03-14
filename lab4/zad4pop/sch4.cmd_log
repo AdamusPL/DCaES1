@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab4/zad4pop/sch4.xst" -ofn "C:/Users/lab/Desktop/Lab4/zad4pop/sch4.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 sch4.ngc sch4.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sch4.ngd 
+XSLTProcess sch4_build.xml 
+tsim -intstyle ise sch4 sch4.nga 
+taengine -intstyle ise -f sch4 -w --format html1 -l sch4_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n sch4 -i sch4 

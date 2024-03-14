@@ -1,0 +1,2 @@
+vhdtdtfi -lib work detector.vhd -prj aohfohdsf -o detector.spl -module detector -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e detector.spl C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/detector.sym 

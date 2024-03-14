@@ -1,0 +1,9 @@
+[Inputs]
+RESET
+CLOCK
+=IN_I[7:0]=
+[Outputs]
+=CHAR_TYPE[7:0]=
+=ONES_COUNT[3:0]=
+=ZEROS_COUNT[3:0]=
+[BiDir]

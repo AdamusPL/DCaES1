@@ -1,0 +1,15 @@
+V3 10
+FL C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/detector.vhd 2024/01/16.10:40:28 P.20131013
+EN work/detector 1705398040 \
+      FL C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/detector.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/detector/Behavioral 1705398041 \
+      FL C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/detector.vhd EN work/detector 1705398040
+FL C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.vhf 2024/01/16.09:19:31 P.20131013
+EN work/sch 1705398042 FL C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sch/BEHAVIORAL 1705398043 \
+      FL C:/Users/lab/Desktop/lab8ACJS/aohfohdsf/sch.vhf EN work/sch 1705398042 \
+      CP detector CP LCD2x64 CP RS232

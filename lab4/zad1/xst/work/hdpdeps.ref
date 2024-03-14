@@ -1,0 +1,20 @@
+V3 16
+FL C:/Users/lab/Desktop/Lab4/zad1/sch1.vhf 2023/11/07.10:29:09 P.20131013
+EN work/FDC_MXILINX_sch1 1699349352 FL C:/Users/lab/Desktop/Lab4/zad1/sch1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FDC_MXILINX_sch1/BEHAVIORAL 1699349353 \
+      FL C:/Users/lab/Desktop/Lab4/zad1/sch1.vhf EN work/FDC_MXILINX_sch1 1699349352 \
+      CP GND CP FDCP
+EN work/COMP8_MXILINX_sch1 1699349354 \
+      FL C:/Users/lab/Desktop/Lab4/zad1/sch1.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/COMP8_MXILINX_sch1/BEHAVIORAL 1699349355 \
+      FL C:/Users/lab/Desktop/Lab4/zad1/sch1.vhf EN work/COMP8_MXILINX_sch1 1699349354 \
+      CP AND4 CP XNOR2 CP AND2
+EN work/sch1 1699349356 \
+      FL C:/Users/lab/Desktop/Lab4/zad1/sch1.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sch1/BEHAVIORAL 1699349357 \
+      FL C:/Users/lab/Desktop/Lab4/zad1/sch1.vhf EN work/sch1 1699349356 \
+      CP COMP8_MXILINX_sch1 CP AND2 CP FDC_MXILINX_sch1 CP RS232_RX

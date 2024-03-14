@@ -1,0 +1,28 @@
+Command line:
+   testestotot_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61337
+
+Tue Dec 05 08:37:18 2023
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5151.8 Meg
+
+ Total Signals          : 20
+ Total Nets             : 32
+ Total Signal Drivers   : 11
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 11
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 515
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5151.8 Meg
+
+Tue Dec 05 08:37:34 2023
+
